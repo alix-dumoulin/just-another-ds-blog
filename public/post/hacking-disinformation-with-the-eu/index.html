@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Just another data blog</title><meta name="description" content="Well, hello there."><meta name="author" content="Alix Dumoulin">
+
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/themes/prism-okaidia.min.css">
+    
+
+
+
+    
+        
+            <link rel="stylesheet" href="/dist/main.37ab3f61b95417873748.min.css">
+        
+    
+
+
+<link rel="canonical" href="/post/hacking-disinformation-with-the-eu/"><meta property="og:title" content="Hacking Disinformation with the EU" />
+<meta property="og:description" content="I recently took part in the &ldquo;Disinformation Ahead: Responding to Future Threats&rdquo; Hackathon organised by the East StratCom Task Force. We created a nice shiny dashboard to raise awareness of disinformation." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/hacking-disinformation-with-the-eu/" />
+<meta property="og:image" content="/shiny-example.png" />
+<meta property="article:published_time" content="2020-02-05T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-02-05T00:00:00+00:00" />
+<meta itemprop="name" content="Hacking Disinformation with the EU">
+<meta itemprop="description" content="I recently took part in the &ldquo;Disinformation Ahead: Responding to Future Threats&rdquo; Hackathon organised by the East StratCom Task Force. We created a nice shiny dashboard to raise awareness of disinformation.">
+<meta itemprop="datePublished" content="2020-02-05T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-02-05T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="572">
+<meta itemprop="image" content="/shiny-example.png">
+
+
+
+<meta itemprop="keywords" content="shiny,R,visualisation,politics," /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/shiny-example.png"/>
+
+<meta name="twitter:title" content="Hacking Disinformation with the EU"/>
+<meta name="twitter:description" content="I recently took part in the &ldquo;Disinformation Ahead: Responding to Future Threats&rdquo; Hackathon organised by the East StratCom Task Force. We created a nice shiny dashboard to raise awareness of disinformation."/>
+
+</head>
+<body>
+    
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top shadow-sm" id="navbar-main-menu">
+    <div class="container">
+        <a class="navbar-brand font-weight-bold" href="/">Just another data blog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-menu">
+            <ul class="navbar-nav ml-auto">
+                
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                
+                    <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
+                
+            
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    
+<main class="content-page container pt-7 pb-5">
+    
+    <div class="row">
+        <div class="col">
+            <article>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="meta text-muted mb-3">
+                            <p class="created text-muted text-uppercase font-weight-bold mb-1">February 5, 2020</p>
+                            <span class="mr-2"><i class="fas fa-book-open mr-2"></i>572 words</span>
+                            <span><i class="fas fa-clock mr-2"></i>3 mins read</span>
+                        </div>
+
+                        <h1>Hacking Disinformation with the EU</h1>
+
+                        <ul class="authors list-inline"><li class="list-inline-item mr-3">
+                    <div class="media author"><div class="media-body">
+                            <h5 class="name my-0"><a href="/authors/alix-dumoulin/" class="small">Alix Dumoulin</a>
+                            </h5></div>
+                    </div>
+                </li></ul>
+                    </div>
+                </div><div class="row justify-content-center mb-3">
+                                <div class="col-lg-10">
+                                    <img data-src="/images/shiny-example_hu0f14a2c3031ff72ffc20dd85da5227bc_110599_900x500_fit_box_2.png" class="img-fluid rounded mx-auto d-block" alt="Hacking Disinformation with the EU">
+                                </div>
+                            </div><div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="content">
+                            <p>I recently took part in the &ldquo;Disinformation Ahead: Responding to Future Threats&rdquo; Hackathon organised by the East StratCom Task Force. We created a nice shiny dashboard to raise awareness of disinformation.</p>
+<h2 id="disinformation-ahead-responding-to-future-threats">Disinformation Ahead: Responding to Future Threats</h2>
+<p>The conference &ldquo;Disinformation Ahead: Responding to Future Threats&rdquo; was taking place in Brussels on 29-30th January - in parallel, the East StratCom Task Force (ESTF) invited programmers, data scientists, communications professionals, and thinkers from across the EU to help them in their task to fight disinformation spread from the Russian Federation.</p>
+<p>The taskforce is guided by the Action Plan against Disinformation of the European External Action serive which aims to tackle</p>
+<blockquote>
+<p>“deliberate, large-scale, and systematic spreading of disinformation”</p>
+</blockquote>
+<p>Learn more <a href="https://eeas.europa.eu/headquarters/headquarters-homepage/54866/action-plan-against-disinformation_en">here.</a></p>
+<h2 id="the-eu-vs-disinfo-database">The EU vs Disinfo Database</h2>
+<p>Over the last 5 years, the ESTF did an amazing job collecting, analyzing, labelling and debunking fake news articles from sources like Sputnik or Russia Today. The database contains the following:</p>
+<ul>
+<li>
+<p><strong>Claims</strong> made that are considered disinformation</p>
+</li>
+<li>
+<p>The <strong>original news article</strong> they come from</p>
+</li>
+<li>
+<p>The <strong>keywords</strong> from the article (e.g. weapons, daesh etc.)</p>
+</li>
+<li>
+<p>The source <strong>organisation</strong> of the claim</p>
+</li>
+<li>
+<p>The <strong>language</strong> and <strong>country</strong> targeted by the article</p>
+</li>
+<li>
+<p>A <strong>reviews</strong> of the claim by the ESTF</p>
+</li>
+</ul>
+<p>This data was collected and labeled by communications professionals and is of very high quality and is now available via an API, here: <a href="https://api.veedoo.io">https://api.veedoo.io</a>. You can call the API in R, for instance to collect all the claim reviews:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">library</span>(jsonlite)
+claim_reviews <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">list</span>()
+
+<span style="color:#a6e22e">for</span>(i in <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#ae81ff">241</span>) {
+  url  <span style="color:#f92672">&lt;-</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">https://api.veedoo.io&#34;</span>
+  path1 <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">paste0</span>(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">claim_reviews?page=&#34;</span>, i)
+  path_full <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">paste0</span>(path1, <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">&amp;perPage=30&#34;</span>)
+  raw.result <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">GET</span>(url <span style="color:#f92672">=</span> url, path <span style="color:#f92672">=</span> path_full)
+  <span style="color:#a6e22e">names</span>(raw.result)
+  this.raw.content <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">rawToChar</span>(raw.result<span style="color:#f92672">$</span>content)
+  this.content <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">fromJSON</span>(this.raw.content)
+  claim_reviews[[i]] <span style="color:#f92672">&lt;-</span> this.content<span style="color:#f92672">$</span>`hydra:member`
+}</code></pre></div>
+<p>THe API is not yet super easy to use with quite a lot of <code>merge()</code> to do for instance to get the keywords used by an organisation. In hindsight, creating an SQLite database would have made it much easier! But the API is free and relatively easy to access so don&rsquo;t hesitate to use it for you own project!</p>
+<h2 id="gaining-new-insights">Gaining new insights</h2>
+<p>The goal behind this hackathon was for the participants to use this data to create new insights, new tools, and generally help the ESTF better understand the data and use it towards their mission of raising awareness and fighting the disinformation campaigns from Russia.</p>
+<h2 id="our-solution">Our solution</h2>
+<p>In a team of 3, we created a Shiny dashboard (R) which allows users to explore the database and have an overview of its content. The first tab includes a map of countries most targeted by disinformation, ranking of most active organisations, and the number of fake claims over time. On the second tab, you have the possibility to dive into a specific organisation and see what languages they spread their news in, what topics they write about most and how many claims they made.</p>
+<p><img src="/images/shiny-example.png" alt="Shiny Tab 2"></p>
+<p>The last tab (for now) lets you explore the claims: you can explore the most popular themes by country, explore a mapping of the claims based on word embeddings which plots the claims in two dimensions according to how similar they are - interesting to see clustering of topics and how they changed in the last few years - as well the the evolution of topic popularity over time.</p>
+<p>You can access the shiny dashboard here: <a href="http://alixdumoulin.shinyapps.io/disinformation_hackathon/">http://alixdumoulin.shinyapps.io/disinformation_hackathon/</a></p>
+<p>And the Github page here: <a href="https://github.com/alix-dumoulin/eu_disinformation/">https://github.com/alix-dumoulin/eu_disinformation/</a></p>
+<p>It is the result of a 2-day hackathon which means there is much more we can do, [suggestions are welcome](mailto: <a href="mailto:a.dumoulin@lse.ac.uk">a.dumoulin@lse.ac.uk</a>)!</p>
+                        </div><div class="tags my-3"><a class="badge badge-pill badge-light border mr-2" href="/tags/shiny">
+                                    <i class="fas fa-tag mr-2"></i>shiny
+                                </a><a class="badge badge-pill badge-light border mr-2" href="/tags/r">
+                                    <i class="fas fa-tag mr-2"></i>R
+                                </a><a class="badge badge-pill badge-light border mr-2" href="/tags/visualisation">
+                                    <i class="fas fa-tag mr-2"></i>visualisation
+                                </a><a class="badge badge-pill badge-light border mr-2" href="/tags/politics">
+                                    <i class="fas fa-tag mr-2"></i>politics
+                                </a></div><ul class="share nav my-3 justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://twitter.com/intent/tweet?url=%2fpost%2fhacking-disinformation-with-the-eu%2f&text=Hacking%20Disinformation%20with%20the%20EU">
+              <i class="fa-fw fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://www.linkedin.com/shareArticle?url=%2fpost%2fhacking-disinformation-with-the-eu%2f&title=Hacking%20Disinformation%20with%20the%20EU">
+                <i class="fa-fw fab fa-linkedin-in"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://www.facebook.com/sharer.php?u=%2fpost%2fhacking-disinformation-with-the-eu%2f&t=Hacking%20Disinformation%20with%20the%20EU">
+                <i class="fa-fw fab fa-facebook-f"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://reddit.com/submit?url=%2fpost%2fhacking-disinformation-with-the-eu%2f&title=Hacking%20Disinformation%20with%20the%20EU">
+                <i class="fa-fw fab fa-reddit-alien"></i>
+            </a>
+        </li>
+    </nav>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        
+                    </div>
+                </div><div class="row justify-content-center my-3">
+                    <div class="col-lg-8">
+                        <div id="commento"></div>
+                        <script src="https://commento.io"></script>
+                    </div>
+                </div></article>
+        </div>
+    </div>
+
+    
+</main>
+
+
+    <footer class="footer text-center bg-dark py-6">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="mailto://example@example.com" class="icons d-block">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li><li class="list-inline-item">
+                            <a href="https://facebook.com" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://github.com" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://gitlab.com" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-gitlab fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://stackoverflow.com" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://linkedin.com" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://medium.com" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-medium fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://reddit.com" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-reddit fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://stackoverflow.com" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://twitter.com" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                </ul>
+
+                <p class="text-muted">
+                    
+                        Copyright © 2020 Alix Dumoulin
+                    
+                </p>
+
+                <p class="text-muted">
+                Powered by <a href="https://gohugo.io" target="_blank">Hugo</a> with <a href="https://github.com/puresyntax71/hugo-theme-chunky-poster" target="_blank">Chunky Poster</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    
+    
+        
+            <script src="/dist/main.2ed44664366c9940537d.min.js"></script>
+        
+    
+
+
+
+<script>
+    window.Prism = window.Prism || {};
+    window.Prism.manual = true;
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-core.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+
+
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-XXXX', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</body>
+</html>
