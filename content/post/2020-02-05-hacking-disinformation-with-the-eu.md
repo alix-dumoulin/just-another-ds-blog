@@ -5,7 +5,7 @@ date: '2020-02-05'
 slug: hacking-disinformation-with-the-eu
 categories: [Short Projects]
 tags: [shiny, R, visualisation, politics]
-images: [euvsdisinfo.png]
+images: [DIsinfo-Banner.png]
 authors: [Alix Dumoulin]
 ---
 
@@ -23,7 +23,9 @@ Learn more [here.](https://eeas.europa.eu/headquarters/headquarters-homepage/548
 
 ## The EU vs Disinfo Database
 
-Over the last 5 years, the ESTF did an amazing job collecting, analyzing, labelling and debunking fake news articles from sources like Sputnik or Russia Today. The database contains the following: 
+Over the last 5 years, the ESTF did an amazing job collecting, analyzing, labelling and debunking fake news articles from sources like Sputnik or Russia Today. You can explore the debunked articles on the new website: https://euvsdisinfo.eu. 
+
+The database contains the following: 
 
 * **Claims** made that are considered disinformation
 
