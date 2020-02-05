@@ -13,6 +13,33 @@
     
     
     <item>
+      <title>About</title>
+      <link>/tags/about/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>General</title>
+      <link>/tags/general/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hackathons</title>
+      <link>/tags/hackathons/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hackathons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>politics</title>
       <link>/tags/politics/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>

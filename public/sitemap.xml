@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/tags/about/</loc>
+    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/alix-dumoulin/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url>
@@ -23,7 +28,17 @@
   </url>
   
   <url>
-    <loc>/categories/generak/</loc>
+    <loc>/tags/general/</loc>
+    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/general/</loc>
+    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hackathons/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url>
   

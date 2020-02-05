@@ -3,10 +3,10 @@ title: Welcome to my blog!
 author: ~
 date: '2020-02-05'
 slug: welcome-to-my-blog
-categories: [generak]
+categories: [general]
 images:
 - lse.jpg
-tags: []
+tags: [General, About]
 ---
 
 Hi there, I just created this blog to showcase my data science projects. This is my first ever blog post!

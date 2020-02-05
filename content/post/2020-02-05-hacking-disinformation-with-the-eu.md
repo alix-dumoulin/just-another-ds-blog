@@ -4,7 +4,7 @@ author: ~
 date: '2020-02-05'
 slug: hacking-disinformation-with-the-eu
 categories: [Short Projects]
-tags: [shiny, R, visualisation, politics]
+tags: [shiny, R, visualisation, politics, hackathons]
 images: [disinfo.png]
 authors: [Alix Dumoulin]
 ---

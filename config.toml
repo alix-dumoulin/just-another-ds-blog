@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://alixdumoulin.netlify.com"
 title = "Just another data blog"
 copyright = "Copyright © 2020 Alix Dumoulin"
 paginate = 2
@@ -21,7 +21,7 @@ theme = "hugo-theme-chunky-poster"
     name = "About"
     url = "/about/"
     weight = 0
-
+    
 [taxonomies]
 category = "categories"
 tag = "tags"
@@ -30,7 +30,7 @@ author = "authors"
 
 [params]
   author = "Alix Dumoulin"
-  description = "Well, hello there."
+  description = "Hello there."
   homepageImage = "/images/home-pic.png"
   share = true
   showLanguageSwitcher = false
