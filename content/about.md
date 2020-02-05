@@ -1,31 +1,39 @@
 ---
 aliases:
-- about-us
-- about-hugo
+- about-me
 - contact
-author: Hugo Authors
+author: Alix Dumoulin
 date: "2019-02-28"
-description: Hugo, the world’s fastest framework for building websites
+description: Hi, there!
 title: About
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+##### ![this is me](/images/me.png) Alix Dumoulin, 21 :fr: living in :uk:
 
-Hugo makes use of a variety of open source projects including:
+Hi, my name is Alix, welcome to my blog! I am a student at The London School of Economics and Political Science (LSE) in the MSc Applied Social Data Science. I am interested in the intersection between data science and the social sciences, in particular political behaviour and public policy. I also co-founded a start-up called ethi - we are building a tool for people to reclaim, control, and use their personal data, learn more about it [here](https://ethi.webflow.io)!
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+#### Education
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
-
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+* MSc Applied Social Data Science @ **The London School of Economics (LSE)**
+* BSc Philosophy, Politics, and Economics @ **University College London (UCL)**
 
 
+#### Interests
 
+* Social data science
+* Political behaviour
+* Policy analysis and data-driven policy-making
+* Machine learning and data ethics
+
+
+#### Skills
+
+* Statistics
+* R including R shiny
+* Python
+* Tableau 
+* Policy Analysis
+
+
+
+*If you have any suggestios, feedback, or would like to get in touch, feel free to contact me at a.dumoulin@lse.ac.uk*

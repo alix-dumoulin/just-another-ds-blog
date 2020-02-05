@@ -36,9 +36,7 @@
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:
- https://github.</description>
+      <description>Alix Dumoulin, 21 🇫🇷 living in 🇬🇧 Hi, my name is Alix, welcome to my blog! I am a student at The London School of Economics and Political Science (LSE) in the MSc Applied Social Data Science. I am interested in the intersection between data science and the social sciences, in particular political behaviour and public policy. I also co-founded a start-up called ethi - we are building a tool for people to reclaim, control, and use their personal data, learn more about it here!</description>
     </item>
     
   </channel>
