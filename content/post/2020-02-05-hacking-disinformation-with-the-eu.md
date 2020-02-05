@@ -1,5 +1,5 @@
 ---
-title: Hacking Disinformation with the EU
+title: Hacking Disinformation with the European External Action Service
 author: ~
 date: '2020-02-05'
 slug: hacking-disinformation-with-the-eu
@@ -9,10 +9,10 @@ images: [disinfo1.jpg]
 authors: [Alix Dumoulin]
 ---
 
-I recently took part in the "Disinformation Ahead: Responding to Future Threats" Hackathon organised by the East StratCom Task Force. We created a nice shiny dashboard to raise awareness of disinformation.
+I recently took part in the "Disinformation Horizon: Responding to Future Threats" Hackathon organised by the East StratCom Task Force. We created a nice shiny dashboard to raise awareness of disinformation.
 <!--more-->
 
-## Disinformation Ahead: Responding to Future Threats
+## Disinformation Horizon: Responding to Future Threats
 
 The conference "Disinformation Ahead: Responding to Future Threats" was taking place in Brussels on 29-30th January - in parallel, the East StratCom Task Force (ESTF) invited programmers, data scientists, communications professionals, and thinkers from across the EU to help them in their task to fight disinformation spread from the Russian Federation.
 
