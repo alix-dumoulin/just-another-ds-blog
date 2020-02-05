@@ -5,7 +5,7 @@ aliases:
 - blog
 - showcase
 - docs
-author: Hugo Authors
+author: Alix Dumoulin
 tags:
 - index
 title: Posts

@@ -23,20 +23,20 @@
 <meta property="og:description" content="I recently took part in the &ldquo;Disinformation Ahead: Responding to Future Threats&rdquo; Hackathon organised by the East StratCom Task Force. We created a nice shiny dashboard to raise awareness of disinformation." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/post/hacking-disinformation-with-the-eu/" />
-<meta property="og:image" content="/shiny-example.png" />
+<meta property="og:image" content="/euvsdisinfo.png" />
 <meta property="article:published_time" content="2020-02-05T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-02-05T00:00:00+00:00" />
 <meta itemprop="name" content="Hacking Disinformation with the EU">
 <meta itemprop="description" content="I recently took part in the &ldquo;Disinformation Ahead: Responding to Future Threats&rdquo; Hackathon organised by the East StratCom Task Force. We created a nice shiny dashboard to raise awareness of disinformation.">
 <meta itemprop="datePublished" content="2020-02-05T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-02-05T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="572">
-<meta itemprop="image" content="/shiny-example.png">
+<meta itemprop="wordCount" content="595">
+<meta itemprop="image" content="/euvsdisinfo.png">
 
 
 
 <meta itemprop="keywords" content="shiny,R,visualisation,politics," /><meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="/shiny-example.png"/>
+<meta name="twitter:image" content="/euvsdisinfo.png"/>
 
 <meta name="twitter:title" content="Hacking Disinformation with the EU"/>
 <meta name="twitter:description" content="I recently took part in the &ldquo;Disinformation Ahead: Responding to Future Threats&rdquo; Hackathon organised by the East StratCom Task Force. We created a nice shiny dashboard to raise awareness of disinformation."/>
@@ -74,7 +74,7 @@
                     <div class="col-lg-8">
                         <div class="meta text-muted mb-3">
                             <p class="created text-muted text-uppercase font-weight-bold mb-1">February 5, 2020</p>
-                            <span class="mr-2"><i class="fas fa-book-open mr-2"></i>572 words</span>
+                            <span class="mr-2"><i class="fas fa-book-open mr-2"></i>595 words</span>
                             <span><i class="fas fa-clock mr-2"></i>3 mins read</span>
                         </div>
 
@@ -89,7 +89,7 @@
                     </div>
                 </div><div class="row justify-content-center mb-3">
                                 <div class="col-lg-10">
-                                    <img data-src="/images/shiny-example_hu0f14a2c3031ff72ffc20dd85da5227bc_110599_900x500_fit_box_2.png" class="img-fluid rounded mx-auto d-block" alt="Hacking Disinformation with the EU">
+                                    <img data-src="/images/euvsdisinfo_hu43291649543f83a923a0185cc5256bc3_114174_900x500_fit_box_2.png" class="img-fluid rounded mx-auto d-block" alt="Hacking Disinformation with the EU">
                                 </div>
                             </div><div class="row justify-content-center">
                     <div class="col-lg-8">
@@ -142,12 +142,26 @@ claim_reviews <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22
 <h2 id="gaining-new-insights">Gaining new insights</h2>
 <p>The goal behind this hackathon was for the participants to use this data to create new insights, new tools, and generally help the ESTF better understand the data and use it towards their mission of raising awareness and fighting the disinformation campaigns from Russia.</p>
 <h2 id="our-solution">Our solution</h2>
-<p>In a team of 3, we created a Shiny dashboard (R) which allows users to explore the database and have an overview of its content. The first tab includes a map of countries most targeted by disinformation, ranking of most active organisations, and the number of fake claims over time. On the second tab, you have the possibility to dive into a specific organisation and see what languages they spread their news in, what topics they write about most and how many claims they made.</p>
-<p><img src="/images/shiny-example.png" alt="Shiny Tab 2"></p>
+<p>In a team of 3, we created a Shiny dashboard (R) which allows users to explore the database and have an overview of its content.</p>
+<p><img src="/images/shiny.png" alt="shiny-page"></p>
+<p>Fow now, the dashboard has 4 tabs:</p>
+<ol>
+<li>
+<p>A home tab gives some explanations and guidlines about the dashboard.</p>
+</li>
+<li>
+<p>The first tab includes a map of countries most targeted by disinformation, ranking of most active organisations, and the number of fake claims over time.</p>
+</li>
+<li>
+<p>On the second tab, you have the possibility to dive into a specific organisation and see what languages they spread their news in, what topics they write about most and how many claims they made.</p>
+</li>
+<li>
 <p>The last tab (for now) lets you explore the claims: you can explore the most popular themes by country, explore a mapping of the claims based on word embeddings which plots the claims in two dimensions according to how similar they are - interesting to see clustering of topics and how they changed in the last few years - as well the the evolution of topic popularity over time.</p>
+</li>
+</ol>
 <p>You can access the shiny dashboard here: <a href="http://alixdumoulin.shinyapps.io/disinformation_hackathon/">http://alixdumoulin.shinyapps.io/disinformation_hackathon/</a></p>
 <p>And the Github page here: <a href="https://github.com/alix-dumoulin/eu_disinformation/">https://github.com/alix-dumoulin/eu_disinformation/</a></p>
-<p>It is the result of a 2-day hackathon which means there is much more we can do, [suggestions are welcome](mailto: <a href="mailto:a.dumoulin@lse.ac.uk">a.dumoulin@lse.ac.uk</a>)!</p>
+<p>It is the result of a 2-day hackathon which means there is much more we can do, suggestions are welcome, you can contact me at: <a href="mailto:a.dumoulin@lse.ac.uk">a.dumoulin@lse.ac.uk</a>.</p>
                         </div><div class="tags my-3"><a class="badge badge-pill badge-light border mr-2" href="/tags/shiny">
                                     <i class="fas fa-tag mr-2"></i>shiny
                                 </a><a class="badge badge-pill badge-light border mr-2" href="/tags/r">

@@ -5,7 +5,7 @@ date: '2020-02-05'
 slug: hacking-disinformation-with-the-eu
 categories: [Short Projects]
 tags: [shiny, R, visualisation, politics]
-images: [shiny-example.png]
+images: [euvsdisinfo.png]
 authors: [Alix Dumoulin]
 ---
 
@@ -65,14 +65,23 @@ The goal behind this hackathon was for the participants to use this data to crea
 
 ## Our solution
 
-In a team of 3, we created a Shiny dashboard (R) which allows users to explore the database and have an overview of its content. The first tab includes a map of countries most targeted by disinformation, ranking of most active organisations, and the number of fake claims over time. On the second tab, you have the possibility to dive into a specific organisation and see what languages they spread their news in, what topics they write about most and how many claims they made. 
+In a team of 3, we created a Shiny dashboard (R) which allows users to explore the database and have an overview of its content. 
 
-![Shiny Tab 2](/images/shiny-example.png)
+![shiny-page](/images/shiny.png)
 
-The last tab (for now) lets you explore the claims: you can explore the most popular themes by country, explore a mapping of the claims based on word embeddings which plots the claims in two dimensions according to how similar they are - interesting to see clustering of topics and how they changed in the last few years - as well the the evolution of topic popularity over time.
+Fow now, the dashboard has 4 tabs:
+
+
+1) A home tab gives some explanations and guidlines about the dashboard.
+
+2) The first tab includes a map of countries most targeted by disinformation, ranking of most active organisations, and the number of fake claims over time. 
+
+3) On the second tab, you have the possibility to dive into a specific organisation and see what languages they spread their news in, what topics they write about most and how many claims they made. 
+
+4) The last tab (for now) lets you explore the claims: you can explore the most popular themes by country, explore a mapping of the claims based on word embeddings which plots the claims in two dimensions according to how similar they are - interesting to see clustering of topics and how they changed in the last few years - as well the the evolution of topic popularity over time.
 
 You can access the shiny dashboard here: http://alixdumoulin.shinyapps.io/disinformation_hackathon/
 
 And the Github page here: https://github.com/alix-dumoulin/eu_disinformation/
 
-It is the result of a 2-day hackathon which means there is much more we can do, [suggestions are welcome](mailto: a.dumoulin@lse.ac.uk)!
+It is the result of a 2-day hackathon which means there is much more we can do, suggestions are welcome, you can contact me at: a.dumoulin@lse.ac.uk.
