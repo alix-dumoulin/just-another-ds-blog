@@ -10,7 +10,7 @@ title: About
 
 ##### ![this is me](/images/me.png) Alix Dumoulin, 21 :fr: living in :uk:
 
-Hi, my name is Alix, welcome to my blog! I am a student at The London School of Economics and Political Science (LSE) in the MSc Applied Social Data Science. I am interested in the intersection between data science and the social sciences, in particular political behaviour and public policy. I also co-founded a start-up called ethi - we are building a tool for people to reclaim, control, and use their personal data, learn more about it [here](https://ethi.webflow.io)!
+Hi, welcome to my blog! I am an **Applied Social Data Science** student at **The London School of Economics** and I created this blog to share my projects and some (hopefully) interesting content about **social data science** and **computational social science**. I am also the co-founder of a start-up called **ethi**: we are building a tool for people to reclaim, control, and use their **personal data**, learn more about it [here](https://ethi.webflow.io)!
 
 #### Education
 
@@ -24,14 +24,15 @@ Hi, my name is Alix, welcome to my blog! I am a student at The London School of 
 * Political behaviour
 * Policy analysis and data-driven policy-making
 * Machine learning and data ethics
+* Innovation in governance
 
 
 #### Skills
 
 * Statistics
-* R including R shiny
-* Python
-* Tableau 
+* Machine Learning
+* Network Analysis
+* R, Python, Tableau, SQL
 * Policy Analysis
 
 
