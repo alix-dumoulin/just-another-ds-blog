@@ -57,7 +57,7 @@ for(i in 1:241) {
 }
 {{< /highlight >}}
 
-THe API is not yet super easy to use with quite a lot of `merge()` to do for instance to get the keywords used by an organisation. In hindsight, creating an SQLite database would have made it much easier! But the API is free and relatively easy to access so don't hesitate to use it for you own project!
+The API is not yet super easy to use with quite a lot of `merge()` to do for instance to get the keywords used by an organisation. In hindsight, creating an SQLite database would have made it much easier! But the API is free and relatively easy to access so don't hesitate to use it for you own project!
 
 
 ## Gaining new insights
@@ -67,7 +67,7 @@ The goal behind this hackathon was for the participants to use this data to crea
 
 ## Our solution
 
-In a team of 3, we created a Shiny dashboard (R) which allows users to explore the database and have an overview of its content. 
+With [Alexa Pavluic](https://scholar.google.com/citations?user=uMYtv9cAAAAJ) and [Corrie Bartelheimer](https://www.samples-of-thoughts.com), we created a Shiny dashboard (R) which allows users to explore the database and have an overview of its content.
 
 ![shiny-page](/images/shiny.png)
 
@@ -81,6 +81,8 @@ Fow now, the dashboard has 4 tabs:
 3) On the second tab, you have the possibility to dive into a specific organisation and see what languages they spread their news in, what topics they write about most and how many claims they made. 
 
 4) The last tab (for now) lets you explore the claims: you can explore the most popular themes by country, explore a mapping of the claims based on word embeddings which plots the claims in two dimensions according to how similar they are - interesting to see clustering of topics and how they changed in the last few years - as well the the evolution of topic popularity over time.
+
+Alexa also produced network visualisations of the metadata which will be integrated to the dashboard in the future, for now you can find out more [here.](https://docs.google.com/presentation/d/1CjZqWvY-o32VdrW7pLZ1rJmy9yTgsYc4XqXDaKw9LaM/edit#slide=id.p)
 
 You can access the shiny dashboard here: http://alixdumoulin.shinyapps.io/disinformation_hackathon/
 

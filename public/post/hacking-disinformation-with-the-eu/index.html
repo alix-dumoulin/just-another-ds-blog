@@ -30,7 +30,7 @@
 <meta itemprop="description" content="I recently took part in the &ldquo;Disinformation Horizon: Responding to Future Threats&rdquo; Hackathon organised by the East StratCom Task Force. We created a nice shiny dashboard to raise awareness of disinformation.">
 <meta itemprop="datePublished" content="2020-02-05T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-02-05T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="606">
+<meta itemprop="wordCount" content="633">
 <meta itemprop="image" content="/disinfo1.jpg">
 
 
@@ -74,7 +74,7 @@
                     <div class="col-lg-8">
                         <div class="meta text-muted mb-3">
                             <p class="created text-muted text-uppercase font-weight-bold mb-1">February 5, 2020</p>
-                            <span class="mr-2"><i class="fas fa-book-open mr-2"></i>606 words</span>
+                            <span class="mr-2"><i class="fas fa-book-open mr-2"></i>633 words</span>
                             <span><i class="fas fa-clock mr-2"></i>3 mins read</span>
                         </div>
 
@@ -139,11 +139,11 @@ claim_reviews <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22
   this.content <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">fromJSON</span>(this.raw.content)
   claim_reviews[[i]] <span style="color:#f92672">&lt;-</span> this.content<span style="color:#f92672">$</span>`hydra:member`
 }</code></pre></div>
-<p>THe API is not yet super easy to use with quite a lot of <code>merge()</code> to do for instance to get the keywords used by an organisation. In hindsight, creating an SQLite database would have made it much easier! But the API is free and relatively easy to access so don&rsquo;t hesitate to use it for you own project!</p>
+<p>The API is not yet super easy to use with quite a lot of <code>merge()</code> to do for instance to get the keywords used by an organisation. In hindsight, creating an SQLite database would have made it much easier! But the API is free and relatively easy to access so don&rsquo;t hesitate to use it for you own project!</p>
 <h2 id="gaining-new-insights">Gaining new insights</h2>
 <p>The goal behind this hackathon was for the participants to use this data to create new insights, new tools, and generally help the ESTF better understand the data and use it towards their mission of raising awareness and fighting the disinformation campaigns from Russia.</p>
 <h2 id="our-solution">Our solution</h2>
-<p>In a team of 3, we created a Shiny dashboard (R) which allows users to explore the database and have an overview of its content.</p>
+<p>With <a href="https://scholar.google.com/citations?user=uMYtv9cAAAAJ">Alexa Pavluic</a> and <a href="https://www.samples-of-thoughts.com">Corrie Bartelheimer</a>, we created a Shiny dashboard (R) which allows users to explore the database and have an overview of its content.</p>
 <p><img src="/images/shiny.png" alt="shiny-page"></p>
 <p>Fow now, the dashboard has 4 tabs:</p>
 <ol>
@@ -160,6 +160,7 @@ claim_reviews <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22
 <p>The last tab (for now) lets you explore the claims: you can explore the most popular themes by country, explore a mapping of the claims based on word embeddings which plots the claims in two dimensions according to how similar they are - interesting to see clustering of topics and how they changed in the last few years - as well the the evolution of topic popularity over time.</p>
 </li>
 </ol>
+<p>Alexa also produced network visualisations of the metadata which will be integrated to the dashboard in the future, for now you can find out more <a href="https://docs.google.com/presentation/d/1CjZqWvY-o32VdrW7pLZ1rJmy9yTgsYc4XqXDaKw9LaM/edit#slide=id.p">here.</a></p>
 <p>You can access the shiny dashboard here: <a href="http://alixdumoulin.shinyapps.io/disinformation_hackathon/">http://alixdumoulin.shinyapps.io/disinformation_hackathon/</a></p>
 <p>And the Github page here: <a href="https://github.com/alix-dumoulin/eu_disinformation/">https://github.com/alix-dumoulin/eu_disinformation/</a></p>
 <p>It is the result of a 2-day hackathon which means there is much more we can do, suggestions are welcome, you can contact me at: <a href="mailto:a.dumoulin@lse.ac.uk">a.dumoulin@lse.ac.uk</a>.</p>
