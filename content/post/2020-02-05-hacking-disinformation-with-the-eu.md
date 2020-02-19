@@ -5,11 +5,11 @@ date: '2020-02-05'
 slug: hacking-disinformation-with-the-eu
 categories: [Short Projects]
 tags: [shiny, R, visualisation, politics, hackathons]
-images: [disinfo1.jpg]
+images: [disinfo.png]
 authors: [Alix Dumoulin]
 ---
 
-I recently took part in the "Disinformation Horizon: Responding to Future Threats" Hackathon organised by the East StratCom Task Force. We created a nice shiny dashboard to raise awareness of disinformation.
+I recently took part in the Disinformation Horizon Hackathon organised by the East StratCom Task Force dedicated to the fight against Russian disinformation using data.
 <!--more-->
 
 ## Disinformation Horizon: Responding to Future Threats
