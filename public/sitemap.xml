@@ -78,6 +78,11 @@
   </url>
   
   <url>
+    <loc>/post/welcome-to-my-blog/</loc>
+    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/r/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url>
@@ -94,11 +99,6 @@
   
   <url>
     <loc>/tags/visualisation/</loc>
-    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/welcome-to-my-blog/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url>
   

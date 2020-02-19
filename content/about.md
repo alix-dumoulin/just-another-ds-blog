@@ -10,7 +10,7 @@ title: About
 
 ##### ![this is me](/images/me.png) Alix Dumoulin, 21 :fr: living in :uk:
 
-Hi, welcome to my blog! I am an **Applied Social Data Science** student at **The London School of Economics** and I created this blog to share my projects and some (hopefully) interesting content about **social data science** and **computational social science**. I am also the co-founder of a start-up called **ethi**: we are building a tool for people to reclaim, control, and use their **personal data**, learn more about it [here](https://ethi.webflow.io)!
+Hi, welcome to my blog! I am an **Applied Social Data Science** student at **The London School of Economics** and I created this blog to share my projects and some (hopefully) interesting content about **social data science** and **computational social science**. I am also the co-founder of a start-up called **ethi**: we are building a tool for people to reclaim, control, and use their **personal data**, learn more about it [here](https://ethi.me)!
 
 #### Education
 

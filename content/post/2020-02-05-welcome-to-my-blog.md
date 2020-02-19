@@ -1,5 +1,5 @@
 ---
-title: Welcome to my blog!
+title: Hi there, and welcome to Just Another Data Blog!
 author: ~
 date: '2020-02-05'
 slug: welcome-to-my-blog
@@ -9,8 +9,7 @@ images:
 tags: [General, About]
 ---
 
-Hi there, I just created this blog to showcase my data science projects. This is my first ever blog post!
-<!--more-->
+Hi there, I just created this blog to showcase my data science projects and share some (hopefully) interesting content about data, social sciences and more!<!--more-->
 
 ## Who am I?
 

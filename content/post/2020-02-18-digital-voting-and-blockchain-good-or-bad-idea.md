@@ -19,8 +19,6 @@ Introducing digital to facilitate the democratic process is increasingly common:
 
 I created it as part of an application for a VC and incubator specialised in blockchain. I found that information about the topic was scattered across the web so I thought an exhaustive overview of the question might be worth sharing. It dates back to March 2019 but hopefully most of it is still up to date! 
 
-![slide1](/images/Slide1.png)
-
 ![slide2](/images/Slide2.png)
 
 ![slide3](/images/Slide3.png)
