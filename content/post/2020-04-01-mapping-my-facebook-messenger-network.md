@@ -11,7 +11,7 @@ images:
 
 I am currently going through my personal data downloaded from Facebook to better understand my digital footprint and what Facebook knows about me. 
 
-![](images/friends_net.png)
+![](/images/friends_net.png)
 
 The Messenger data is an amazing source for text analysis, for instance topic modeling, but besides the meta data, there is also a wealth of metadata, in particular members of my group chats and conversations. I used network analysis to explore my activity on Messenger, the connections between my friends and answer questions like: did I do a good job at connecting my friends? Who are my most central friends? 
 
@@ -49,7 +49,7 @@ The size of the vertices is not weighted but the edges are weighted by the numbe
 
 The graph shows some clear clusters: a large group on top, a large group on the other side, a small group on the right, a very small group on the left, and a few individuals I talk to privately but do not share group chats with. More details to come on what those clusters are. 
 
-![](images/capture1.png)
+![](/images/capture1.png)
 
 
 
@@ -63,11 +63,11 @@ The graph shows some clear clusters: a large group on top, a large group on the 
 
 Degree here means how many people one person is connected to in my personal Messenger network. 146 is obviously myself. The isolated friends, my personal friends who are not part of any group, have a degree of 1. Half of my friends are connected to 49+ people via group chats and the average number of people they are connected to in my personal communication network is 46.57.
 
-![](images/hist.png)
+![](/images/hist.png)
 
 We can see who has high and low degree by plotting the network and weighting the vertice size by the size of their degree. It splits the big university group into 3: friends of friends on the left, close friends in the middle, coursemates on the right. 
 
-![](images/degree net.png)****
+![](/images/degree net.png)****
 
 **Other centrality measures**
 
@@ -95,25 +95,25 @@ The transitivity is 0.88, which means that **88% of triads are closed**. In othe
 
 The edges with the highest weight is $(Alix, Max)$ where $w = 17$, meaning that besides our private chat, we are in 16 group chats together. The other things we can see is that we have **a lot** of friends in common: on hover over a vertice, the opacity of the vertices that don't share an edge with the selected vertice is very low, so we can see that Max is in group chats with most of my friends (and almost all of my university friends).
 
-![](images/max.png)
+![](/images/max.png)
 
 
 
 This big group on the top consists of my university friends. Some people - my best friends - stand out with thicker edges between them and me, and between them too. Two people stand out at the bottom right of this cluster - the two people I am closest to in real life. 
 
-![](images/ppe.png)
+![](/images/ppe.png)
 
 
 
 The first plot I made of this network confused me a lot because of this group: I didn't recognize the names and didn't get how I could have a group completely disconnected from the rest. After taking a close look at the name I realised it was the UCL Fencing club. Fencing is segregated into weapons and gender so I didn't recognize many of those name but also a bit sad to see I never integrated fencing club with my social life. 
 
-![fencing](images/fencing.jpeg)
+![fencing](/images/fencing.jpeg)
 
 
 
 A last group to highlight is this odd little cluster: the members they are connected to my two closest friends as they but not to anyone else. This is the project Talos that I was involved with for two years with other UCL students from another department and my close friend and boyfriend. Here again, clear failure in integrating Fencing club members with the rest of my friends.
 
-![](images/talos.png)
+![](/images/talos.png)
 
 
 
@@ -121,7 +121,7 @@ A last group to highlight is this odd little cluster: the members they are conne
 
 I played around with community detection algorithms too. Although the plot made it quite clear what each cluster is, there was still one susprise. We can clearly see the fencing group, the Talos group, the 'isolated' friends, but also an interesting split in the university group. One side happens to be my PPE coursemates, while the other side is made of other friends, mostly from Economics BSc, some of them I am close to and others who are friends of friends.
 
-![](/Users/alix/Desktop/Projects/Ethi/data-exploration/messages/pics/community.png)
+![](/images/community.png)
 
 ## Next steps
 

@@ -18,7 +18,8 @@
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://alixdumoulin.netlify.com/post/mapping-my-facebook-messenger-network/</guid>
-      <description></description>
+      <description>I am currently going through my personal data downloaded from Facebook to better understand my digital footprint and what Facebook knows about me.
+The Messenger data is an amazing source for text analysis, for instance topic modeling, but besides the meta data, there is also a wealth of metadata, in particular members of my group chats and conversations. I used network analysis to explore my activity on Messenger, the connections between my friends and answer questions like: did I do a good job at connecting my friends?</description>
     </item>
     
     <item>
@@ -55,6 +56,15 @@
       
       <guid>https://alixdumoulin.netlify.com/about/</guid>
       <description>Alix Dumoulin, 21 🇫🇷 living in 🇬🇧 Hi, welcome to my blog! I am an Applied Social Data Science student at The London School of Economics and I created this blog to share my projects and some (hopefully) interesting content about social data science and computational social science. I am also the co-founder of a start-up called ethi: we are building a tool for people to reclaim, control, and use their personal data, learn more about it here!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alixdumoulin.netlify.com/post/2020-04-01-mapping-my-facebook-messenger-network/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alixdumoulin.netlify.com/post/2020-04-01-mapping-my-facebook-messenger-network/</guid>
+      <description></description>
     </item>
     
     <item>
