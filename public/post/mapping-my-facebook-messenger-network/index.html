@@ -104,7 +104,7 @@ The Messenger data is an amazing source for text analysis, for instance topic mo
 <!-- raw HTML omitted -->
 <h2 id="methods">Methods</h2>
 <h3 id="pre-processing">Pre-processing</h3>
-<p>I processed the data in python. I used a loop to open all the folders containing the <code>.json</code> files and append the conversations. I then extracted all the conversation participants (either a connection and me or a group chat I belong to). From this I created the edges of the network and I could weight them by computing the frequency table of the edges. For instance if $(Alix, Max)$ appears 5 times, I got <code>[(Alix, Max), 5]</code>.</p>
+<p>I processed the data in python. I used a loop to open all the folders containing the <code>.json</code> files and append the conversations. I then extracted all the conversation participants (either a connection and me or a group chat I belong to). From this I created the edges of the network and I could weight them by computing the frequency table of the edges. For instance if (Alix, Max) appears 5 times, I got <code>[(Alix, Max), 5]</code>.</p>
 <!-- raw HTML omitted -->
 <h3 id="analysis-and-visualisation">Analysis and visualisation</h3>
 <p>I first use <code>R</code>'s <code>igraph</code> library to plot the network and conduct some analysis, in particular to find out more about density, transitivity as well as to apply a community detection algorithm. Because it is difficult to distinguish the labels for a network of this size, I switched to the <code>D3.js</code> plotting library.</p>
@@ -143,7 +143,7 @@ The Messenger data is an amazing source for text analysis, for instance topic mo
 <p>Degree here means how many people one person is connected to in my personal Messenger network. 146 is obviously myself. The isolated friends, my personal friends who are not part of any group, have a degree of 1. Half of my friends are connected to 49+ people via group chats and the average number of people they are connected to in my personal communication network is 46.57.</p>
 <p><img src="/images/hist.png" alt=""></p>
 <p>We can see who has high and low degree by plotting the network and weighting the vertice size by the size of their degree. It splits the big university group into 3: friends of friends on the left, close friends in the middle, coursemates on the right.</p>
-<p>![](/images/degree net.png)****</p>
+<p>![](/images/degree net.png)</p>
 <p><strong>Other centrality measures</strong></p>
 <table>
 <thead>
@@ -186,7 +186,7 @@ The Messenger data is an amazing source for text analysis, for instance topic mo
 <p>The transitivity is 0.88, which means that <strong>88% of triads are closed</strong>. In other words: if friend A and friend B are in a group chat together and friend A and friend C are in a group chat together, the probability that friend B and friend C are in a group chat together is 0.88.</p>
 <!-- raw HTML omitted -->
 <h3 id="structure-of-the-network">Structure of the network</h3>
-<p>The edges with the highest weight is $(Alix, Max)$ where $w = 17$, meaning that besides our private chat, we are in 16 group chats together. The other things we can see is that we have <strong>a lot</strong> of friends in common: on hover over a vertice, the opacity of the vertices that don&rsquo;t share an edge with the selected vertice is very low, so we can see that Max is in group chats with most of my friends (and almost all of my university friends).</p>
+<p>The edges with the highest weight is <code>(Alix, Max)</code> where w = 17, meaning that besides our private chat, we are in 16 group chats together. The other things we can see is that we have <strong>a lot</strong> of friends in common: on hover over a vertice, the opacity of the vertices that don&rsquo;t share an edge with the selected vertice is very low, so we can see that Max is in group chats with most of my friends (and almost all of my university friends).</p>
 <p><img src="/images/max.png" alt=""></p>
 <p>This big group on the top consists of my university friends. Some people - my best friends - stand out with thicker edges between them and me, and between them too. Two people stand out at the bottom right of this cluster - the two people I am closest to in real life.</p>
 <p><img src="/images/ppe.png" alt=""></p>

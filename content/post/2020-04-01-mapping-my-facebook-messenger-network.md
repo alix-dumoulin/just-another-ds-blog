@@ -1,20 +1,12 @@
 ---
-title: "Mapping my Facebook Messenger Network"
-author: "Alix Dumoulin"
-date: '2020-04-02'
-images: friends_net.png
+title: Mapping my Facebook Messenger Network
+author: ~
+date: '2020-04-01'
 slug: mapping-my-facebook-messenger-network
-tags:
-- D3.js
-- R
-- python
-- network analysis
-- social media
-- Facebook
-categories:
-- visualisation
-- network analysis
-- social media
+categories: [visualisation, network analysis, social media]
+tags: [D3.js, R, python, network analysis, social media, Facebook]
+images:
+- friends_net.png
 ---
 
 I am currently going through my personal data downloaded from Facebook to better understand my digital footprint and what Facebook knows about me. 
@@ -72,7 +64,6 @@ The graph shows some clear clusters: a large group on top, a large group on the 
 
 Degree here means how many people one person is connected to in my personal Messenger network. 146 is obviously myself. The isolated friends, my personal friends who are not part of any group, have a degree of 1. Half of my friends are connected to 49+ people via group chats and the average number of people they are connected to in my personal communication network is 46.57.
 
-<div style="text-align:center"><img src="images/hist.png" /></div>
 ![](/images/hist.png)
 
 We can see who has high and low degree by plotting the network and weighting the vertice size by the size of their degree. It splits the big university group into 3: friends of friends on the left, close friends in the middle, coursemates on the right. 
@@ -103,7 +94,7 @@ The transitivity is 0.88, which means that **88% of triads are closed**. In othe
 
 ### Structure of the network
 
-The edges with the highest weight is (Alix, Max) where w = 17, meaning that besides our private chat, we are in 16 group chats together. The other things we can see is that we have **a lot** of friends in common: on hover over a vertice, the opacity of the vertices that don't share an edge with the selected vertice is very low, so we can see that Max is in group chats with most of my friends (and almost all of my university friends).
+The edges with the highest weight is `(Alix, Max)` where w = 17, meaning that besides our private chat, we are in 16 group chats together. The other things we can see is that we have **a lot** of friends in common: on hover over a vertice, the opacity of the vertices that don't share an edge with the selected vertice is very low, so we can see that Max is in group chats with most of my friends (and almost all of my university friends).
 
 ![](/images/max.png)
 
