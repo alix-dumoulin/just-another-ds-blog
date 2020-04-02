@@ -37,4 +37,4 @@ Hi, welcome to my blog! I am an **Applied Social Data Science** student at **The
 
 
 
-*If you have any suggestios, feedback, or would like to get in touch, feel free to contact me at a.dumoulin@lse.ac.uk*
+*If you have any suggestions, feedback, or would like to get in touch, feel free to contact me at a.dumoulin@lse.ac.uk*
