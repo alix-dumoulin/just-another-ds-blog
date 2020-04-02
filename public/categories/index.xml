@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Just another data blog</title>
-    <link>https://alixdumoulin.netlify.com/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Just another data blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020 Alix Dumoulin</copyright>
     <lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://alixdumoulin.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>network analysis</title>
-      <link>https://alixdumoulin.netlify.com/categories/network-analysis/</link>
+      <link>/categories/network-analysis/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alixdumoulin.netlify.com/categories/network-analysis/</guid>
+      <guid>/categories/network-analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>social media</title>
-      <link>https://alixdumoulin.netlify.com/categories/social-media/</link>
+      <link>/categories/social-media/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alixdumoulin.netlify.com/categories/social-media/</guid>
+      <guid>/categories/social-media/</guid>
       <description></description>
     </item>
     
     <item>
       <title>visualisation</title>
-      <link>https://alixdumoulin.netlify.com/categories/visualisation/</link>
+      <link>/categories/visualisation/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alixdumoulin.netlify.com/categories/visualisation/</guid>
+      <guid>/categories/visualisation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>general</title>
-      <link>https://alixdumoulin.netlify.com/categories/general/</link>
+      <link>/categories/general/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alixdumoulin.netlify.com/categories/general/</guid>
+      <guid>/categories/general/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Short Projects</title>
-      <link>https://alixdumoulin.netlify.com/categories/short-projects/</link>
+      <link>/categories/short-projects/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alixdumoulin.netlify.com/categories/short-projects/</guid>
+      <guid>/categories/short-projects/</guid>
       <description></description>
     </item>
     

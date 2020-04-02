@@ -2,59 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Just another data blog</title>
-    <link>https://alixdumoulin.netlify.com/</link>
+    <link>/</link>
     <description>Recent content on Just another data blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020 Alix Dumoulin</copyright>
     <lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://alixdumoulin.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mapping my Facebook Messenger Network</title>
-      <link>https://alixdumoulin.netlify.com/post/mapping-my-facebook-messenger-network/</link>
+      <link>/post/mapping-my-facebook-messenger-network/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alixdumoulin.netlify.com/post/mapping-my-facebook-messenger-network/</guid>
-      <description>I am currently going through my personal data downloaded from Facebook to better understand my digital footprint and what Facebook knows about me.
-The Messenger data is an amazing source for text analysis, for instance topic modeling, but besides the meta data, there is also a wealth of metadata, in particular members of my group chats and conversations. I used network analysis to explore my activity on Messenger, the connections between my friends and answer questions like: did I do a good job at connecting my friends?</description>
+      <guid>/post/mapping-my-facebook-messenger-network/</guid>
+      <description>I am currently going through my personal data downloaded from Facebook to better understand my digital footprint and what Facebook knows about me. The Messenger data is an amazing source for text analysis but there is also a wealth of metadata that can be analysed:. here, I look at conversaton participants and I use social network analysis to explore my communication network on Messenger. I hope to answer answer questions like: how dense is my friendship network?</description>
     </item>
     
     <item>
       <title>Digital voting and blockchain, good or bad idea?</title>
-      <link>https://alixdumoulin.netlify.com/post/digital-voting-and-blockchain-good-or-bad-idea/</link>
+      <link>/post/digital-voting-and-blockchain-good-or-bad-idea/</link>
       <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alixdumoulin.netlify.com/post/digital-voting-and-blockchain-good-or-bad-idea/</guid>
+      <guid>/post/digital-voting-and-blockchain-good-or-bad-idea/</guid>
       <description>&lt;p&gt;There have been some attempts to introduce digital in voting and more generally in the democratic process. Could blockchain enhance digital-based voting and help overcome some related challenges such as security?&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hacking Disinformation with the European External Action Service</title>
-      <link>https://alixdumoulin.netlify.com/post/hacking-disinformation-with-the-eu/</link>
+      <link>/post/hacking-disinformation-with-the-eu/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alixdumoulin.netlify.com/post/hacking-disinformation-with-the-eu/</guid>
+      <guid>/post/hacking-disinformation-with-the-eu/</guid>
       <description>&lt;p&gt;I recently took part in the Disinformation Horizon Hackathon organised by the East StratCom Task Force dedicated to the fight against Russian disinformation using data.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hi there, and welcome to Just Another Data Blog!</title>
-      <link>https://alixdumoulin.netlify.com/post/welcome-to-my-blog/</link>
+      <link>/post/welcome-to-my-blog/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alixdumoulin.netlify.com/post/welcome-to-my-blog/</guid>
+      <guid>/post/welcome-to-my-blog/</guid>
       <description>&lt;p&gt;Hi there, I just created this blog to showcase my data science projects and share some (hopefully) interesting content about data, social sciences and more!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://alixdumoulin.netlify.com/about/</link>
+      <link>/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://alixdumoulin.netlify.com/about/</guid>
+      <guid>/about/</guid>
       <description>Alix Dumoulin, 21 🇫🇷 living in 🇬🇧 Hi, welcome to my blog! I am an Applied Social Data Science student at The London School of Economics and I created this blog to share my projects and some (hopefully) interesting content about social data science and computational social science. I am also the co-founder of a start-up called ethi: we are building a tool for people to reclaim, control, and use their personal data, learn more about it here!</description>
     </item>
     

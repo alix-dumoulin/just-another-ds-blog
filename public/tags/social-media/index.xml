@@ -2,24 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>social media on Just another data blog</title>
-    <link>https://alixdumoulin.netlify.com/tags/social-media/</link>
+    <link>/tags/social-media/</link>
     <description>Recent content in social media on Just another data blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020 Alix Dumoulin</copyright>
     <lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://alixdumoulin.netlify.com/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mapping my Facebook Messenger Network</title>
-      <link>https://alixdumoulin.netlify.com/post/mapping-my-facebook-messenger-network/</link>
+      <link>/post/mapping-my-facebook-messenger-network/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alixdumoulin.netlify.com/post/mapping-my-facebook-messenger-network/</guid>
-      <description>I am currently going through my personal data downloaded from Facebook to better understand my digital footprint and what Facebook knows about me.
-The Messenger data is an amazing source for text analysis, for instance topic modeling, but besides the meta data, there is also a wealth of metadata, in particular members of my group chats and conversations. I used network analysis to explore my activity on Messenger, the connections between my friends and answer questions like: did I do a good job at connecting my friends?</description>
+      <guid>/post/mapping-my-facebook-messenger-network/</guid>
+      <description>I am currently going through my personal data downloaded from Facebook to better understand my digital footprint and what Facebook knows about me. The Messenger data is an amazing source for text analysis but there is also a wealth of metadata that can be analysed:. here, I look at conversaton participants and I use social network analysis to explore my communication network on Messenger. I hope to answer answer questions like: how dense is my friendship network?</description>
     </item>
     
   </channel>

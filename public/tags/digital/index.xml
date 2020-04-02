@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>digital on Just another data blog</title>
-    <link>https://alixdumoulin.netlify.com/tags/digital/</link>
+    <link>/tags/digital/</link>
     <description>Recent content in digital on Just another data blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020 Alix Dumoulin</copyright>
     <lastBuildDate>Tue, 18 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://alixdumoulin.netlify.com/tags/digital/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/digital/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Digital voting and blockchain, good or bad idea?</title>
-      <link>https://alixdumoulin.netlify.com/post/digital-voting-and-blockchain-good-or-bad-idea/</link>
+      <link>/post/digital-voting-and-blockchain-good-or-bad-idea/</link>
       <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alixdumoulin.netlify.com/post/digital-voting-and-blockchain-good-or-bad-idea/</guid>
+      <guid>/post/digital-voting-and-blockchain-good-or-bad-idea/</guid>
       <description>&lt;p&gt;There have been some attempts to introduce digital in voting and more generally in the democratic process. Could blockchain enhance digital-based voting and help overcome some related challenges such as security?&lt;/p&gt;</description>
     </item>
     

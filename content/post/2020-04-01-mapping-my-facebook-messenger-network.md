@@ -1,6 +1,6 @@
 ---
 title: Mapping my Facebook Messenger Network
-author: ~
+author: Alix Dumoulin
 date: '2020-04-01'
 slug: mapping-my-facebook-messenger-network
 categories: [visualisation, network analysis, social media]
@@ -9,9 +9,7 @@ images:
 - friends_net.png
 ---
 
-I am currently going through my personal data downloaded from Facebook to better understand my digital footprint and what Facebook knows about me. 
-
-The Messenger data is an amazing source for text analysis, for instance topic modeling, but besides the meta data, there is also a wealth of metadata, in particular members of my group chats and conversations. I used network analysis to explore my activity on Messenger, the connections between my friends and answer questions like: did I do a good job at connecting my friends? Who are my most central friends? 
+I am currently going through my personal data downloaded from Facebook to better understand my digital footprint and what Facebook knows about me. The Messenger data is an amazing source for text analysis but there is also a wealth of metadata that can be analysed:. here, I look at conversaton participants and I use social network analysis to explore my communication network on Messenger. I hope to answer answer questions like: how dense is my friendship network? Who are my most central friends? Did I do a good job at connecting my friends and integrating my social life? And much more.
 
 <br/>
 <br/>
@@ -19,18 +17,15 @@ The Messenger data is an amazing source for text analysis, for instance topic mo
 
 ## The data
 
-I downloaded my Messenger data from the past few months on Facebook to plot my Messenger network. I was interested in things like
-
-* Who is central to my social life?
-* Did I make my various friends' groups interact?
+I downloaded my Facebook data a while ago and only requested a few month to minimize the wait and size of the file. The folder contains all my Facebook activity including my messages with some very convenient metadata. For this project, I only use this metadata of the messages: the conversation members. Participants in the group chats - my connections on Messenger - will be the nodes, and an edge between two connections (including myself) is the result of being members of the same group chat. For, instance from my private chat with Pauline, there is an edge `(Alix, Pauline)` and from a group what what Max, Pauline and I there are three edges `(Alix, Pauline), (Pauline, Max), (Alix Max)`. This is an undirected network. 
 
 <br/>
 
 ## Methods
 
-### Pre-processing
+### Pre-processing steps
 
-I processed the data in python. I used a loop to open all the folders containing the `.json` files and append the conversations. I then extracted all the conversation participants (either a connection and me or a group chat I belong to). From this I created the edges of the network and I could weight them by computing the frequency table of the edges. For instance if (Alix, Max) appears 5 times, I got `[(Alix, Max), 5]`.
+I processed the data in `Python`. The original data I got from Facebook was a folder `/messages/inbox` which contains as many folders as conversations I have - both private conversations and group chats. Each folder contains a `.json` file which lists the members of the conversation, and for each message in the chat, the sender, timestamp and content. I used a loop to open all the folders, fetch the `.json` content and appended all the conversations to a single object. From this, I extracted all the conversation participants (my nodes) and whenever two people appear in a conversation, their two names form a tuple (my edges). Finally, I generate the edge weight by computing the frequency table of the edges. For instance if `(Alix, Max)` appears 5 times, I get a list made of a tupe (the edge) and a numerical (the weight) `[(Alix, Max), 5]`. The next step was to use the `networkX` module in `Python` to add each edge and their weight to a graph object and export the object as a `.json` file which already has the right format for plotting using the `D3.js` wrapper function `forceNetwork()` in `R`. To conduct some further analysis, I create an `igraph` object to compute some simple network statistics.
 
 <br/>
 
@@ -68,7 +63,7 @@ Degree here means how many people one person is connected to in my personal Mess
 
 We can see who has high and low degree by plotting the network and weighting the vertice size by the size of their degree. It splits the big university group into 3: friends of friends on the left, close friends in the middle, coursemates on the right. 
 
-![](/images/degree net.png)
+![](/images/degree net.png)****
 
 **Other centrality measures**
 
@@ -120,7 +115,7 @@ A last group to highlight is this odd little cluster: the members they are conne
 
 ### Community detection
 
-I played around with community detection algorithms too. Although the plot made it quite clear what each cluster is, there was still one susprise. We can clearly see the fencing group, the Talos group, the 'isolated' friends, but also an interesting split in the university group. One side happens to be my PPE coursemates, while the other side is made of other friends, mostly from Economics BSc, some of them I am close to and others who are friends of friends.
+I played around with community detection algorithms too and show the results of the fast greedy algorithm. Although the plots shown above made it quite clear what each cluster is, there was still one susprise. We can clearly see the fencing group, the Talos group, the 'isolated' friends, but also an interesting split in the university group. One side happens to be my PPE coursemates, while the other side is made of other friends, mostly from Economics BSc, some of them I am close to and others who are friends of friends.
 
 ![](/images/community.png)
 
