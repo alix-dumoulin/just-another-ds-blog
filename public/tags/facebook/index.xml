@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Facebook on Just another data blog</title>
+    <link>https://alixdumoulin.netlify.com/tags/facebook/</link>
+    <description>Recent content in Facebook on Just another data blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2020 Alix Dumoulin</copyright>
+    <lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://alixdumoulin.netlify.com/tags/facebook/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mapping my Facebook Messenger Network</title>
+      <link>https://alixdumoulin.netlify.com/post/mapping-my-facebook-messenger-network/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alixdumoulin.netlify.com/post/mapping-my-facebook-messenger-network/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

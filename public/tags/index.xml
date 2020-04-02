@@ -2,94 +2,139 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Just another data blog</title>
-    <link>/tags/</link>
+    <link>https://alixdumoulin.netlify.com/tags/</link>
     <description>Recent content in Tags on Just another data blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020 Alix Dumoulin</copyright>
-    <lastBuildDate>Tue, 18 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://alixdumoulin.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>digital</title>
-      <link>/tags/digital/</link>
-      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      <title>D3.js</title>
+      <link>https://alixdumoulin.netlify.com/tags/d3.js/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/digital/</guid>
+      <guid>https://alixdumoulin.netlify.com/tags/d3.js/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>politics</title>
-      <link>/tags/politics/</link>
-      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      <title>Facebook</title>
+      <link>https://alixdumoulin.netlify.com/tags/facebook/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/politics/</guid>
+      <guid>https://alixdumoulin.netlify.com/tags/facebook/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>tech</title>
-      <link>/tags/tech/</link>
-      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      <title>network analysis</title>
+      <link>https://alixdumoulin.netlify.com/tags/network-analysis/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/tech/</guid>
+      <guid>https://alixdumoulin.netlify.com/tags/network-analysis/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>About</title>
-      <link>/tags/about/</link>
-      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      <title>python</title>
+      <link>https://alixdumoulin.netlify.com/tags/python/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/about/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>General</title>
-      <link>/tags/general/</link>
-      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/general/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hackathons</title>
-      <link>/tags/hackathons/</link>
-      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/hackathons/</guid>
+      <guid>https://alixdumoulin.netlify.com/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/tags/r/</link>
+      <link>https://alixdumoulin.netlify.com/tags/r/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alixdumoulin.netlify.com/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>social media</title>
+      <link>https://alixdumoulin.netlify.com/tags/social-media/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alixdumoulin.netlify.com/tags/social-media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>digital</title>
+      <link>https://alixdumoulin.netlify.com/tags/digital/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alixdumoulin.netlify.com/tags/digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>politics</title>
+      <link>https://alixdumoulin.netlify.com/tags/politics/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alixdumoulin.netlify.com/tags/politics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://alixdumoulin.netlify.com/tags/tech/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alixdumoulin.netlify.com/tags/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://alixdumoulin.netlify.com/tags/about/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/r/</guid>
+      <guid>https://alixdumoulin.netlify.com/tags/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>General</title>
+      <link>https://alixdumoulin.netlify.com/tags/general/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alixdumoulin.netlify.com/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hackathons</title>
+      <link>https://alixdumoulin.netlify.com/tags/hackathons/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alixdumoulin.netlify.com/tags/hackathons/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shiny</title>
-      <link>/tags/shiny/</link>
+      <link>https://alixdumoulin.netlify.com/tags/shiny/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/shiny/</guid>
+      <guid>https://alixdumoulin.netlify.com/tags/shiny/</guid>
       <description></description>
     </item>
     
     <item>
       <title>visualisation</title>
-      <link>/tags/visualisation/</link>
+      <link>https://alixdumoulin.netlify.com/tags/visualisation/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/visualisation/</guid>
+      <guid>https://alixdumoulin.netlify.com/tags/visualisation/</guid>
       <description></description>
     </item>
     

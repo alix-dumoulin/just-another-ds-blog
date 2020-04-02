@@ -3,124 +3,174 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
+    <loc>https://alixdumoulin.netlify.com/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alixdumoulin.netlify.com/categories/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alixdumoulin.netlify.com/tags/d3.js/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alixdumoulin.netlify.com/tags/facebook/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alixdumoulin.netlify.com/post/mapping-my-facebook-messenger-network/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alixdumoulin.netlify.com/categories/network-analysis/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alixdumoulin.netlify.com/tags/network-analysis/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alixdumoulin.netlify.com/post/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alixdumoulin.netlify.com/tags/python/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alixdumoulin.netlify.com/tags/r/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alixdumoulin.netlify.com/categories/social-media/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alixdumoulin.netlify.com/tags/social-media/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alixdumoulin.netlify.com/tags/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alixdumoulin.netlify.com/categories/visualisation/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alixdumoulin.netlify.com/tags/digital/</loc>
     <lastmod>2020-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/digital/</loc>
+    <loc>https://alixdumoulin.netlify.com/post/digital-voting-and-blockchain-good-or-bad-idea/</loc>
     <lastmod>2020-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/digital-voting-and-blockchain-good-or-bad-idea/</loc>
+    <loc>https://alixdumoulin.netlify.com/tags/politics/</loc>
     <lastmod>2020-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/politics/</loc>
+    <loc>https://alixdumoulin.netlify.com/tags/tech/</loc>
     <lastmod>2020-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/tech/</loc>
-    <lastmod>2020-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/about/</loc>
+    <loc>https://alixdumoulin.netlify.com/tags/about/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/alix-dumoulin/</loc>
+    <loc>https://alixdumoulin.netlify.com/authors/alix-dumoulin/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/</loc>
+    <loc>https://alixdumoulin.netlify.com/authors/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://alixdumoulin.netlify.com/tags/general/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/general/</loc>
+    <loc>https://alixdumoulin.netlify.com/categories/general/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/general/</loc>
+    <loc>https://alixdumoulin.netlify.com/tags/hackathons/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/hackathons/</loc>
+    <loc>https://alixdumoulin.netlify.com/post/hacking-disinformation-with-the-eu/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/hacking-disinformation-with-the-eu/</loc>
+    <loc>https://alixdumoulin.netlify.com/post/welcome-to-my-blog/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/welcome-to-my-blog/</loc>
+    <loc>https://alixdumoulin.netlify.com/tags/shiny/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/r/</loc>
+    <loc>https://alixdumoulin.netlify.com/categories/short-projects/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/shiny/</loc>
+    <loc>https://alixdumoulin.netlify.com/tags/visualisation/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/short-projects/</loc>
-    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/visualisation/</loc>
-    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/about/</loc>
+    <loc>https://alixdumoulin.netlify.com/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/hugo-authors/</loc>
+    <loc>https://alixdumoulin.netlify.com/authors/hugo-authors/</loc>
   </url>
   
   <url>
-    <loc>/authors/jane-smith/</loc>
+    <loc>https://alixdumoulin.netlify.com/authors/jane-smith/</loc>
   </url>
   
   <url>
-    <loc>/authors/john-doe/</loc>
+    <loc>https://alixdumoulin.netlify.com/authors/john-doe/</loc>
   </url>
   
   <url>
-    <loc>/series/</loc>
+    <loc>https://alixdumoulin.netlify.com/post/messenger-network/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alixdumoulin.netlify.com/series/</loc>
   </url>
   
 </urlset>
