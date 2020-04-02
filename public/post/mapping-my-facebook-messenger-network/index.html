@@ -24,7 +24,7 @@
 The Messenger data is an amazing source for text analysis, for instance topic modeling, but besides the meta data, there is also a wealth of metadata, in particular members of my group chats and conversations. I used network analysis to explore my activity on Messenger, the connections between my friends and answer questions like: did I do a good job at connecting my friends?" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://alixdumoulin.netlify.com/post/mapping-my-facebook-messenger-network/" />
-<meta property="og:image" content="https://alixdumoulin.netlify.com/friends_net.jpg" />
+<meta property="og:image" content="https://alixdumoulin.netlify.com/friends_net.png" />
 <meta property="article:published_time" content="2020-04-01T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-04-01T00:00:00+00:00" />
 <meta itemprop="name" content="Mapping my Facebook Messenger Network">
@@ -32,13 +32,13 @@ The Messenger data is an amazing source for text analysis, for instance topic mo
 The Messenger data is an amazing source for text analysis, for instance topic modeling, but besides the meta data, there is also a wealth of metadata, in particular members of my group chats and conversations. I used network analysis to explore my activity on Messenger, the connections between my friends and answer questions like: did I do a good job at connecting my friends?">
 <meta itemprop="datePublished" content="2020-04-01T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-04-01T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1371">
-<meta itemprop="image" content="https://alixdumoulin.netlify.com/friends_net.jpg">
+<meta itemprop="wordCount" content="1372">
+<meta itemprop="image" content="https://alixdumoulin.netlify.com/friends_net.png">
 
 
 
 <meta itemprop="keywords" content="D3.js,R,python,network analysis,social media,Facebook," /><meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://alixdumoulin.netlify.com/friends_net.jpg"/>
+<meta name="twitter:image" content="https://alixdumoulin.netlify.com/friends_net.png"/>
 
 <meta name="twitter:title" content="Mapping my Facebook Messenger Network"/>
 <meta name="twitter:description" content="I am currently going through my personal data downloaded from Facebook to better understand my digital footprint and what Facebook knows about me.
@@ -77,7 +77,7 @@ The Messenger data is an amazing source for text analysis, for instance topic mo
                     <div class="col-lg-8">
                         <div class="meta text-muted mb-3">
                             <p class="created text-muted text-uppercase font-weight-bold mb-1">April 1, 2020</p>
-                            <span class="mr-2"><i class="fas fa-book-open mr-2"></i>1371 words</span>
+                            <span class="mr-2"><i class="fas fa-book-open mr-2"></i>1372 words</span>
                             <span><i class="fas fa-clock mr-2"></i>7 mins read</span>
                         </div>
 
@@ -85,12 +85,16 @@ The Messenger data is an amazing source for text analysis, for instance topic mo
 
                         
                     </div>
-                </div><div class="row justify-content-center">
+                </div><div class="row justify-content-center mb-3">
+                                <div class="col-lg-10">
+                                    <img data-src="/images/friends_net_huda1d1d0064b351b801b0a6e6f19fed09_118777_900x500_fit_box_2.png" class="img-fluid rounded mx-auto d-block" alt="Mapping my Facebook Messenger Network">
+                                </div>
+                            </div><div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="content">
                             <p>I am currently going through my personal data downloaded from Facebook to better understand my digital footprint and what Facebook knows about me.</p>
-<p><img src="/images/friends_net.png" alt=""></p>
-<p>The Messenger data is an amazing source for text analysis, for instance topic modeling, but besides the meta data, there is also a wealth of metadata, in particular members of my group chats and conversations. I used network analysis to explore my activity on Messenger, the connections between my friends and answer questions like: did I do a good job at connecting my friends? Who are my most central friends? <!-- raw HTML omitted --></p>
+<p>The Messenger data is an amazing source for text analysis, for instance topic modeling, but besides the meta data, there is also a wealth of metadata, in particular members of my group chats and conversations. I used network analysis to explore my activity on Messenger, the connections between my friends and answer questions like: did I do a good job at connecting my friends? Who are my most central friends?</p>
+<!-- raw HTML omitted -->
 <h2 id="the-data">The data</h2>
 <p>I downloaded my Messenger data from the past few months on Facebook to plot my Messenger network. I was interested in things like</p>
 <ul>
@@ -101,14 +105,17 @@ The Messenger data is an amazing source for text analysis, for instance topic mo
 <h2 id="methods">Methods</h2>
 <h3 id="pre-processing">Pre-processing</h3>
 <p>I processed the data in python. I used a loop to open all the folders containing the <code>.json</code> files and append the conversations. I then extracted all the conversation participants (either a connection and me or a group chat I belong to). From this I created the edges of the network and I could weight them by computing the frequency table of the edges. For instance if $(Alix, Max)$ appears 5 times, I got <code>[(Alix, Max), 5]</code>.</p>
+<!-- raw HTML omitted -->
 <h3 id="analysis-and-visualisation">Analysis and visualisation</h3>
 <p>I first use <code>R</code>'s <code>igraph</code> library to plot the network and conduct some analysis, in particular to find out more about density, transitivity as well as to apply a community detection algorithm. Because it is difficult to distinguish the labels for a network of this size, I switched to the <code>D3.js</code> plotting library.</p>
 <!-- raw HTML omitted -->
+<h2 id="findings">Findings</h2>
 <h3 id="here-is-my-network">Here is my network</h3>
 <p>This is what the network looks like. The <code>.html</code> version of the graph allows you to zoom in and out to explore the relationships from closer, but to respect the privacy of my connections, I will only share some screenshots where the labels are not visible.</p>
 <p>The size of the vertices is not weighted but the edges are weighted by the number of conversations people in my network (including myself) have in common. It is quite interesting because not only can I see who I am directly connected with but also independently of me, I can see that some of my friends are in many similar group chats. The weight of the edges is a very good representation of how close I am to people, no surprises here.</p>
 <p>The graph shows some clear clusters: a large group on top, a large group on the other side, a small group on the right, a very small group on the left, and a few individuals I talk to privately but do not share group chats with. More details to come on what those clusters are.</p>
 <p><img src="/images/capture1.png" alt=""></p>
+<!-- raw HTML omitted -->
 <h3 id="some-metrics">Some metrics</h3>
 <p><strong>Degree centrality</strong></p>
 <table>
@@ -177,6 +184,7 @@ The Messenger data is an amazing source for text analysis, for instance topic mo
 <p><strong>Closeness measures</strong> how close each node is to every other, so essentially how close or how far someone in the network is to another person. It is very low because I am connected to everyone, meaning that anyone can get to anyone else simple by going via me, and for some people (those who are directly connected), that would already be the longest path!</p>
 <p><strong>Transitivity</strong></p>
 <p>The transitivity is 0.88, which means that <strong>88% of triads are closed</strong>. In other words: if friend A and friend B are in a group chat together and friend A and friend C are in a group chat together, the probability that friend B and friend C are in a group chat together is 0.88.</p>
+<!-- raw HTML omitted -->
 <h3 id="structure-of-the-network">Structure of the network</h3>
 <p>The edges with the highest weight is $(Alix, Max)$ where $w = 17$, meaning that besides our private chat, we are in 16 group chats together. The other things we can see is that we have <strong>a lot</strong> of friends in common: on hover over a vertice, the opacity of the vertices that don&rsquo;t share an edge with the selected vertice is very low, so we can see that Max is in group chats with most of my friends (and almost all of my university friends).</p>
 <p><img src="/images/max.png" alt=""></p>
@@ -186,6 +194,7 @@ The Messenger data is an amazing source for text analysis, for instance topic mo
 <p><img src="/images/fencing.jpeg" alt=""></p>
 <p>A last group to highlight is this odd little cluster: the members they are connected to my two closest friends as they but not to anyone else. This is the project Talos that I was involved with for two years with other UCL students from another department and my close friend and boyfriend. Here again, clear failure in integrating Fencing club members with the rest of my friends.</p>
 <p><img src="/images/talos.png" alt=""></p>
+<!-- raw HTML omitted -->
 <h3 id="community-detection">Community detection</h3>
 <p>I played around with community detection algorithms too. Although the plot made it quite clear what each cluster is, there was still one susprise. We can clearly see the fencing group, the Talos group, the &lsquo;isolated&rsquo; friends, but also an interesting split in the university group. One side happens to be my PPE coursemates, while the other side is made of other friends, mostly from Economics BSc, some of them I am close to and others who are friends of friends.</p>
 <p><img src="/images/community.png" alt=""></p>

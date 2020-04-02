@@ -6,14 +6,15 @@ slug: mapping-my-facebook-messenger-network
 categories: [visualisation, network analysis, social media]
 tags: [D3.js, R, python, network analysis, social media, Facebook]
 images:
-- friends_net.jpg
+- friends_net.png
 ---
 
 I am currently going through my personal data downloaded from Facebook to better understand my digital footprint and what Facebook knows about me. 
 
-![](/images/friends_net.png)
+The Messenger data is an amazing source for text analysis, for instance topic modeling, but besides the meta data, there is also a wealth of metadata, in particular members of my group chats and conversations. I used network analysis to explore my activity on Messenger, the connections between my friends and answer questions like: did I do a good job at connecting my friends? Who are my most central friends? 
 
-The Messenger data is an amazing source for text analysis, for instance topic modeling, but besides the meta data, there is also a wealth of metadata, in particular members of my group chats and conversations. I used network analysis to explore my activity on Messenger, the connections between my friends and answer questions like: did I do a good job at connecting my friends? Who are my most central friends? <br/>
+<br/>
+<br/>
 
 
 ## The data
@@ -31,14 +32,14 @@ I downloaded my Messenger data from the past few months on Facebook to plot my M
 
 I processed the data in python. I used a loop to open all the folders containing the `.json` files and append the conversations. I then extracted all the conversation participants (either a connection and me or a group chat I belong to). From this I created the edges of the network and I could weight them by computing the frequency table of the edges. For instance if $(Alix, Max)$ appears 5 times, I got `[(Alix, Max), 5]`.
 
-
+<br/>
 
 ### Analysis and visualisation
 
 I first use `R`'s `igraph` library to plot the network and conduct some analysis, in particular to find out more about density, transitivity as well as to apply a community detection algorithm. Because it is difficult to distinguish the labels for a network of this size, I switched to the `D3.js` plotting library. 
 
-
 <br/>
+
 ## Findings
 
 ### Here is my network
@@ -51,7 +52,7 @@ The graph shows some clear clusters: a large group on top, a large group on the 
 
 ![](/images/capture1.png)
 
-
+<br/>
 
 ### Some metrics
 
@@ -89,7 +90,7 @@ We can see who has high and low degree by plotting the network and weighting the
 
 The transitivity is 0.88, which means that **88% of triads are closed**. In other words: if friend A and friend B are in a group chat together and friend A and friend C are in a group chat together, the probability that friend B and friend C are in a group chat together is 0.88. 
 
-
+<br/>
 
 ### Structure of the network
 
@@ -115,7 +116,7 @@ A last group to highlight is this odd little cluster: the members they are conne
 
 ![](/images/talos.png)
 
-
+<br/>
 
 ### Community detection
 
