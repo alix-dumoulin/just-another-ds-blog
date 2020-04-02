@@ -35,7 +35,7 @@ I downloaded my Facebook data a while ago and only requested a few month to mini
 
 ### Pre-processing steps
 
-I processed the data in `Python`. The original data I got from Facebook was a folder `/messages/inbox` which contains as many folders as conversations I have - both private conversations and group chats. Each folder contains a `.json` file which lists the members of the conversation, and for each message in the chat, the sender, timestamp and content. I used a loop to open all the folders, fetch the `.json` content and appended all the conversations to a single object. From this, I extracted all the conversation participants (my nodes) and whenever two people appear in a conversation, their two names form a tuple (my edges). Finally, I generate the edge weight by computing the frequency table of the edges. For instance if `(Alix, Max)` appears 5 times, I get a list made of a tupe (the edge) and a numerical (the weight) `[(Alix, Max), 5]`. The next step was to use the `networkX` module in `Python` to add each edge and their weight to a graph object and export the object as a `.json` file which already has the right format for plotting using the `D3.js` wrapper function `forceNetwork()` in `R`. To conduct some further analysis, I create an `igraph` object to compute some simple network statistics.
+I processed the data in `Python`. The original data I got from Facebook was a folder `/messages/inbox` which contains as many folders as conversations I have - both private conversations and group chats. Each folder contains a `.json` file which lists the members of the conversation, and for each message in the chat, the sender, timestamp and content. I used a loop to open all the folders, fetch the `.json` content and appended all the conversations to a single object. From this, I extracted all the conversation participants (my nodes) and whenever two people appear in a conversation, their two names form a tuple (my edges). Finally, I generate the edge weight by computing the frequency table of the edges. For instance if `(Alix, Max)` appears 5 times, I get a list made of a tuple (the edge) and a numerical (the weight) `[(Alix, Max), 5]`. The next step was to use the `networkX` module in `Python` to add each edge and their weight to a graph object and export the object as a `.json` file which already has the right format for plotting using the `D3.js` wrapper function `forceNetwork()` in `R`. To conduct some further analysis, I create an `igraph` object to compute some simple network statistics.
 
 <br/>
 
@@ -117,7 +117,7 @@ The first plot I made of this network confused me a lot because of this group: I
 
 
 
-A last group to highlight is this odd little cluster: the members they are connected to my two closest friends as they but not to anyone else. This is the project Talos that I was involved with for two years with other UCL students from another department and my close friend and boyfriend. Here again, clear failure in integrating Fencing club members with the rest of my friends.
+A last group to highlight is this odd little cluster: the members they are connected to my two closest friends as they but not to anyone else. This is the project Talos that I was involved with for two years with other UCL students from another department and my close friend and boyfriend. Here again, clear failure in integrating Talos with the rest of my friends.
 
 ![](/images/talos.png)
 
