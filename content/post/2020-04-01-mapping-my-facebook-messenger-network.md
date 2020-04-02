@@ -1,15 +1,23 @@
 ---
-title: Mapping my Facebook Messenger Network
-author: Alix Dumoulin
+title: "Mapping my Facebook Messenger Network"
+author: "Alix Dumoulin"
 date: '2020-04-01'
+images: friends_net.png
 slug: mapping-my-facebook-messenger-network
-categories: [visualisation, network analysis, social media]
-tags: [D3.js, R, python, network analysis, social media, Facebook]
-images:
-- friends_net.png
+tags:
+- D3.js
+- R
+- python
+- network analysis
+- social media
+- Facebook
+categories:
+- visualisation
+- network analysis
+- social media
 ---
 
-I am currently going through my personal data downloaded from Facebook to better understand my digital footprint and what Facebook knows about me. The Messenger data is an amazing source for text analysis but there is also a wealth of metadata that can be analysed:. here, I look at conversaton participants and I use social network analysis to explore my communication network on Messenger.
+I am currently going through my personal data downloaded from Facebook to better understand my digital footprint and what Facebook knows about me. The Messenger data is an amazing source for text analysis but there is also a wealth of metadata that can be analysed: here, I look at conversaton participants and I use social network analysis to explore my communication network on Messenger.
 
 I hope to answer questions like: how dense is my friendship network? Who are my most central friends? Did I do a good job at connecting my friends and integrating my social life? And much more.
 
@@ -19,7 +27,7 @@ I hope to answer questions like: how dense is my friendship network? Who are my 
 
 ## The data
 
-I downloaded my Facebook data a while ago and only requested a few month to minimize the wait and size of the file. The folder contains all my Facebook activity including my messages with some very convenient metadata. For this project, I only use this metadata of the messages: the conversation members. Participants in the group chats - my connections on Messenger - will be the nodes, and an edge between two connections (including myself) is the result of being members of the same group chat. For, instance from my private chat with Pauline, there is an edge `(Alix, Pauline)` and from a group what what Max, Pauline and I there are three edges `(Alix, Pauline), (Pauline, Max), (Alix Max)`. This is an undirected network. 
+I downloaded my Facebook data a while ago and only requested a few month to minimize the wait and size of the file. The folder contains all my Facebook activity including my messages with some very convenient metadata. For this project, I only use this metadata of the messages: the conversation members. Participants in the group chats - my connections on Messenger - will be the nodes, and an edge between two connections (including myself) is the result of being members of the same group chat. For, instance from my private chat with Pauline, there is an edge `(Alix, Pauline)` and from a group what what Max, Pauline and I there are three edges `(Alix, Pauline), (Pauline, Max), (Alix, Max)`. This is an undirected network. 
 
 <br/>
 
