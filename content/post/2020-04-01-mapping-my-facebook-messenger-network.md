@@ -13,7 +13,7 @@ I am currently going through my personal data downloaded from Facebook to better
 
 ![](/images/friends_net.png)
 
-The Messenger data is an amazing source for text analysis, for instance topic modeling, but besides the meta data, there is also a wealth of metadata, in particular members of my group chats and conversations. I used network analysis to explore my activity on Messenger, the connections between my friends and answer questions like: did I do a good job at connecting my friends? Who are my most central friends? 
+The Messenger data is an amazing source for text analysis, for instance topic modeling, but besides the meta data, there is also a wealth of metadata, in particular members of my group chats and conversations. I used network analysis to explore my activity on Messenger, the connections between my friends and answer questions like: did I do a good job at connecting my friends? Who are my most central friends? <br/>
 
 
 ## The data
@@ -23,7 +23,7 @@ I downloaded my Messenger data from the past few months on Facebook to plot my M
 * Who is central to my social life?
 * Did I make my various friends' groups interact?
 
-
+<br/>
 
 ## Methods
 
@@ -38,7 +38,7 @@ I processed the data in python. I used a loop to open all the folders containing
 I first use `R`'s `igraph` library to plot the network and conduct some analysis, in particular to find out more about density, transitivity as well as to apply a community detection algorithm. Because it is difficult to distinguish the labels for a network of this size, I switched to the `D3.js` plotting library. 
 
 
-
+<br/>
 ## Findings
 
 ### Here is my network
@@ -107,7 +107,7 @@ This big group on the top consists of my university friends. Some people - my be
 
 The first plot I made of this network confused me a lot because of this group: I didn't recognize the names and didn't get how I could have a group completely disconnected from the rest. After taking a close look at the name I realised it was the UCL Fencing club. Fencing is segregated into weapons and gender so I didn't recognize many of those name but also a bit sad to see I never integrated fencing club with my social life. 
 
-![fencing](/images/fencing.jpeg)
+![](/images/fencing.jpeg)
 
 
 
@@ -122,6 +122,8 @@ A last group to highlight is this odd little cluster: the members they are conne
 I played around with community detection algorithms too. Although the plot made it quite clear what each cluster is, there was still one susprise. We can clearly see the fencing group, the Talos group, the 'isolated' friends, but also an interesting split in the university group. One side happens to be my PPE coursemates, while the other side is made of other friends, mostly from Economics BSc, some of them I am close to and others who are friends of friends.
 
 ![](/images/community.png)
+
+<br/>
 
 ## Next steps
 
