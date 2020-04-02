@@ -9,7 +9,9 @@ images:
 - friends_net.png
 ---
 
-I am currently going through my personal data downloaded from Facebook to better understand my digital footprint and what Facebook knows about me. The Messenger data is an amazing source for text analysis but there is also a wealth of metadata that can be analysed:. here, I look at conversaton participants and I use social network analysis to explore my communication network on Messenger. I hope to answer answer questions like: how dense is my friendship network? Who are my most central friends? Did I do a good job at connecting my friends and integrating my social life? And much more.
+I am currently going through my personal data downloaded from Facebook to better understand my digital footprint and what Facebook knows about me. The Messenger data is an amazing source for text analysis but there is also a wealth of metadata that can be analysed:. here, I look at conversaton participants and I use social network analysis to explore my communication network on Messenger.
+
+I hope to answer questions like: how dense is my friendship network? Who are my most central friends? Did I do a good job at connecting my friends and integrating my social life? And much more.
 
 <br/>
 <br/>
