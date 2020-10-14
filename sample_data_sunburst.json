@@ -1,0 +1,55 @@
+{
+ "name": "Risky terms",
+ "children": [
+  {
+   "name": "Financial information",
+   "children": [
+    {
+     "name": "cluster",
+     "children": [
+      {"name": "IBAN", "size": 3938},
+      {"name": "RIB", "size": 3812},
+      {"name": "bank", "size": 6714}
+     ]
+    },
+    {
+     "name": "Insults",
+     "children": [
+      {"name": "Cunt", "size": 3534},
+      {"name": "Dick", "size": 5731},
+      {"name": "Fuck", "size": 7840},
+      {"name": "Shit", "size": 5914},
+      {"name": "Asshole", "size": 3416}
+     ]
+    },
+    {
+     "name": "Social media",
+     "children": [
+      {"name": "facebook.com", "size": 7074}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "locations",
+   "children": [
+    {"name": "London", "size": 17010},
+    {"name": "Paris", "size": 5842},
+    {"name": "Milan", "size": 1983},
+      {"name": "SSE Arena", "size": 2047},
+      {"name": "Regents Park", "size": 1375},
+      {"name": "Eiffel Tower", "size": 8746},
+      {"name": "JPM HQ", "size": 2202}
+    ]
+    }
+  {
+   "name": "Political",
+   "children": [
+    {"name": "Boris Johnson", "size": 8833},
+    {"name": "Trump", "size": 1732},
+    {"name": "Breitbart", "size": 3623},
+    {"name": "Clinton", "size": 10066}
+   ]
+  }
+ ]
+}
