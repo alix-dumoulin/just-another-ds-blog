@@ -1,6 +1,3 @@
-{
- "name": "Risky terms",
- "children": [
   {
      "name": "cluster",
      "children": 
@@ -56,5 +53,3 @@
    ]
   }
   
- ]
-}
